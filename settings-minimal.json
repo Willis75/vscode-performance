@@ -1,0 +1,26 @@
+{
+  "editor.minimap.enabled": false,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 8,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 3000,
+  "editor.largeFileOptimizations": true,
+  "workbench.list.smoothScrolling": false,
+  "terminal.integrated.smoothScrolling": false,
+  "extensions.autoUpdate": false,
+  "telemetry.telemetryLevel": "error",
+  "git.autorefresh": false,
+  "git.autofetch": false,
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.git/**": true,
+    "**/dist/**": true,
+    "**/build/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/*.min.js": true
+  }
+}

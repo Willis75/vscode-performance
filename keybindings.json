@@ -1,0 +1,52 @@
+// Atajos de teclado optimizados para un flujo de trabajo más rápido
+// Estos atajos reducen la dependencia del mouse y mejoran la productividad
+
+[
+    // Navegación rápida
+    {
+      "key": "ctrl+shift+e",
+      "command": "workbench.view.explorer"
+    },
+    {
+      "key": "ctrl+shift+f",
+      "command": "workbench.view.search"
+    },
+    {
+      "key": "ctrl+shift+g",
+      "command": "workbench.view.scm"
+    },
+    {
+      "key": "ctrl+shift+d",
+      "command": "workbench.view.debug"
+    },
+    {
+      "key": "ctrl+shift+x",
+      "command": "workbench.view.extensions"
+    },
+    
+    // Cerrar pestañas rápidamente para liberar memoria
+    {
+      "key": "ctrl+shift+w",
+      "command": "workbench.action.closeAllEditors"
+    },
+    {
+      "key": "ctrl+alt+w",
+      "command": "workbench.action.closeOtherEditors"
+    },
+    
+    // Recargar ventana para liberar memoria
+    {
+      "key": "ctrl+alt+r",
+      "command": "workbench.action.reloadWindow"
+    },
+    
+    // Ocultar/mostrar paneles para ahorrar recursos
+    {
+      "key": "ctrl+shift+y",
+      "command": "workbench.action.togglePanel"
+    },
+    {
+      "key": "ctrl+b",
+      "command": "workbench.action.toggleSidebarVisibility"
+    }
+  ]

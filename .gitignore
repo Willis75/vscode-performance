@@ -1,0 +1,20 @@
+# VS Code Performance Optimizer
+
+## Archivos del Repositorio
+
+- `settings.json` - Configuración principal ultra-optimizada
+- `keybindings.json` - Atajos de teclado optimizados
+- `auto-cleanup-startup.ps1` - Script de limpieza automática
+- `setup-auto-startup.ps1` - Configurador de automatización
+- `remove-auto-startup.ps1` - Desinstalador
+- `optimize-vscode.ps1` - Optimizador manual
+- `extensions-guide.md` - Guía de extensiones
+- `AUTO-STARTUP-GUIDE.md` - Guía de automatización
+- `README.md` - Este archivo
+- `LICENSE` - Licencia MIT
+
+## Archivos Temporales (No incluir en Git)
+
+- `*.log` - Archivos de log
+- `*.backup` - Backups temporales
+- `.vscode/` - Configuración local de VS Code

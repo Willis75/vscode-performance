@@ -1,0 +1,183 @@
+{
+  // === OPTIMIZACIONES DE RENDIMIENTO ===
+  
+  // Reducir uso de memoria y CPU
+  "editor.quickSuggestions": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.parameterHints.enabled": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.suggest.filterGraceful": false,
+  "editor.suggest.localityBonus": false,
+  "editor.semanticHighlighting.enabled": false,
+  
+  // Desactivar funciones pesadas
+  "editor.bracketPairColorization.enabled": false,
+  "editor.guides.bracketPairs": false,
+  "editor.guides.indentation": false,
+  "editor.inlayHints.enabled": "off",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  
+  // Optimizar IntelliSense
+  "typescript.suggest.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "typescript.validate.enable": false,
+  "javascript.suggest.enabled": false,
+  "javascript.validate.enable": false,
+  
+  // Reducir uso de disco
+  "files.autoSave": "off",
+  "files.hotExit": "off",
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.git/**": true,
+    "**/bower_components/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/.vscode/**": true,
+    "**/coverage/**": true,
+    "**/.next/**": true,
+    "**/.cache/**": true,
+    "**/temp/**": true,
+    "**/tmp/**": true
+  },
+  
+  // Optimizar búsqueda
+  "search.useIgnoreFiles": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.vscode": true,
+    "**/coverage": true,
+    "**/.next": true,
+    "**/.cache": true,
+    "**/temp": true,
+    "**/tmp": true,
+    "**/*.min.js": true,
+    "**/*.min.css": true
+  },
+  
+  // Reducir animaciones y efectos visuales
+  "workbench.list.smoothScrolling": false,
+  "workbench.tree.expandMode": "singleClick",
+  "workbench.tree.indent": 8,
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 5,
+  
+  // Optimizar terminal
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.smoothScrolling": false,
+  "terminal.integrated.fastScrollSensitivity": 5,
+  
+  // Desactivar telemetría
+  "telemetry.telemetryLevel": "off",
+  "update.mode": "manual",
+  "extensions.autoCheckUpdates": false,
+  "extensions.autoUpdate": false,
+  
+  // Optimizar Git
+  "git.enabled": false,
+  "git.autorefresh": false,
+  "git.autofetch": false,
+  "scm.diffDecorations": "none",
+  
+  // Optimizar minimap
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "mouseover",
+  
+  // Reducir uso de CPU en archivos grandes
+  "editor.largeFileOptimizations": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.renderSideBySide": false,
+  
+  // Optimizar extensiones
+  "extensions.ignoreRecommendations": true,
+  "workbench.extensions.ignoreRecommendations": true,
+  
+  // Configuración de ventana
+  "window.newWindowDimensions": "inherit",
+  "window.restoreWindows": "none",
+  "window.titleBarStyle": "native",
+  
+  // Optimizar breadcrumbs
+  "breadcrumbs.enabled": false,
+  
+  // Reducir uso de memoria en archivos
+  "files.maxMemoryForLargeFilesMB": 4096,
+  "editor.maxTokenizationLineLength": 20000,
+  
+  // === OPTIMIZACIONES ADICIONALES AVANZADAS ===
+  
+  // Optimizaciones de renderizado y rendimiento visual
+  "editor.smoothScrolling": false,
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.occurrencesHighlight": false,
+  "editor.selectionHighlight": false,
+  "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "none",
+  "editor.matchBrackets": "never",
+  
+  // Desactivar funciones de análisis pesadas
+  "editor.hover.enabled": false,
+  "editor.lightbulb.enabled": false,
+  "editor.codeLens": false,
+  "editor.linkedEditing": false,
+  "editor.detectIndentation": false,
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingQuotes": "never",
+  "editor.autoSurround": "never",
+  
+  // Optimizar formato y validación
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "html.validate.scripts": false,
+  "html.validate.styles": false,
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  
+  // Optimizar funciones de lenguaje
+  "typescript.preferences.includePackageJsonAutoImports": "off",
+  "typescript.suggest.autoImports": false,
+  "typescript.suggest.completeFunctionCalls": false,
+  "javascript.preferences.includePackageJsonAutoImports": "off",
+  "javascript.suggest.autoImports": false,
+  "javascript.suggest.completeFunctionCalls": false,
+  
+  // Reducir actividad de red y sincronización
+  "settingsSync.ignoredSettings": ["*"],
+  "update.enableWindowsBackgroundUpdates": false,
+  "workbench.enableExperiments": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  
+  // Optimizar explorador de archivos
+  "explorer.compactFolders": false,
+  "explorer.decorations.badges": false,
+  "explorer.decorations.colors": false,
+  "explorer.autoReveal": false,
+  
+  // Desactivar funciones de debug innecesarias
+  "debug.openDebug": "neverOpen",
+  "debug.showInStatusBar": "never",
+  "debug.toolBarLocation": "hidden",
+  
+  // Optimizar panel de problemas
+  "problems.decorations.enabled": false,
+  "problems.showCurrentInStatus": false,
+  
+  // Configuración de memoria agresiva para equipos de bajo recursos
+  "typescript.preferences.useAliasesForRenames": false,
+  "typescript.referencesCodeLens.enabled": false,
+  "typescript.implementationsCodeLens.enabled": false,
+  "javascript.referencesCodeLens.enabled": false,
+  "javascript.implementationsCodeLens.enabled": false
+}

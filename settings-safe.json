@@ -1,0 +1,109 @@
+{
+  // === CONFIGURACIÓN OPTIMIZADA Y COMPATIBLE DE VS CODE ===
+  // Esta versión es más conservadora y causa menos errores
+  
+  // === OPTIMIZACIONES BÁSICAS DE RENDIMIENTO ===
+  
+  // Reducir sugerencias automáticas (menos agresivo)
+  "editor.quickSuggestionsDelay": 500,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.wordBasedSuggestions": "matchingDocuments",
+  "editor.suggest.showWords": false,
+  
+  // Optimizar IntelliSense moderadamente
+  "editor.parameterHints.enabled": true,
+  "editor.suggest.filterGraceful": true,
+  "editor.suggest.localityBonus": true,
+  
+  // Desactivar funciones pesadas de manera segura
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.indentation": true,
+  "editor.semanticHighlighting.enabled": "configuredByTheme",
+  
+  // Optimizar archivos y búsqueda
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
+  "files.hotExit": "onExitAndWindowClose",
+  
+  // Excluir carpetas pesadas del watcher
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.git/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/.next/**": true,
+    "**/.cache/**": true,
+    "**/coverage/**": true
+  },
+  
+  // Optimizar búsqueda
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.next": true,
+    "**/coverage": true,
+    "**/*.min.js": true,
+    "**/*.min.css": true
+  },
+  
+  // Optimizaciones visuales moderadas
+  "workbench.list.smoothScrolling": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 10,
+  
+  // Terminal optimizado
+  "terminal.integrated.gpuAcceleration": "auto",
+  "terminal.integrated.smoothScrolling": false,
+  
+  // Reducir telemetría
+  "telemetry.telemetryLevel": "error",
+  "update.mode": "default",
+  "extensions.autoCheckUpdates": true,
+  "extensions.autoUpdate": false,
+  
+  // Git optimizado pero funcional
+  "git.enabled": true,
+  "git.autorefresh": false,
+  "git.autofetch": false,
+  
+  // Minimap optimizado
+  "editor.minimap.enabled": false,
+  
+  // Configuración para archivos grandes
+  "editor.largeFileOptimizations": true,
+  "files.maxMemoryForLargeFilesMB": 4096,
+  
+  // Breadcrumbs (mantener para navegación)
+  "breadcrumbs.enabled": true,
+  
+  // === OPTIMIZACIONES ADICIONALES SEGURAS ===
+  
+  // Editor
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.lineNumbers": "on",
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 120,
+  
+  // Workspace
+  "window.restoreWindows": "folders",
+  "window.newWindowDimensions": "inherit",
+  
+  // Formateo
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": false,
+  
+  // IntelliSense específico por lenguaje (más compatible)
+  "typescript.suggest.autoImports": false,
+  "typescript.updateImportsOnFileMove.enabled": "prompt",
+  "javascript.suggest.autoImports": false,
+  
+  // Configuración de rendimiento final
+  "editor.maxTokenizationLineLength": 20000,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.enableExperiments": false
+}
