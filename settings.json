@@ -63,7 +63,7 @@
   "workbench.list.smoothScrolling": false,
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 8,
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "workbench.statusBar.visible": false,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,

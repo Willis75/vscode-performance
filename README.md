@@ -32,6 +32,7 @@ Una configuración profesional que puede **reducir hasta 70% el uso de CPU** y *
 
 ### 🔧 **Configuración Principal**
 - **[`settings.json`](settings.json)** - Configuración ultra-optimizada con 150+ ajustes
+- **La barra de actividad (Activity Bar) siempre está visible para mejor navegación.**
 - **[`keybindings.json`](keybindings.json)** - Atajos de teclado para máxima productividad
 
 ### 🤖 **Automatización**
@@ -89,7 +90,8 @@ cp keybindings.json "%APPDATA%\Code\User\keybindings.json"
 
 ### 🎨 **Optimizaciones Visuales**
 - Desactivadas animaciones y transiciones costosas
-- Minimizada interfaz (sin Activity Bar, Status Bar opcional)
+- Minimizada interfaz (Status Bar opcional)
+- **Activity Bar siempre visible**
 - Desactivado minimap y efectos de renderizado
 - Optimizado terminal integrado sin aceleración GPU
 
